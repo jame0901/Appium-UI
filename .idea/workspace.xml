@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a692af7-6218-4df6-921c-ba7f4be016dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1292946214">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="69" />
+          <entry key="project.open.time.1" value="25" />
+          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="10" />
+          <entry key="project.open.time.13" value="7" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Log" value="1" />
+          <entry key="class" value="38" />
+          <entry key="iml" value="10" />
+          <entry key="java" value="125" />
+          <entry key="kt" value="1" />
+          <entry key="png" value="10" />
+          <entry key="text" value="106" />
+          <entry key="xml" value="34" />
+          <entry key="xsl" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="38" />
+          <entry key="IDEA_MODULE" value="10" />
+          <entry key="Image" value="10" />
+          <entry key="JAVA" value="125" />
+          <entry key="Kotlin" value="1" />
+          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="TypeScript" value="1" />
+          <entry key="XML" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="33" />
+          <entry key="java" value="12639" />
+          <entry key="text" value="1" />
+          <entry key="txt" value="5" />
+          <entry key="xml" value="401" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="12639" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="399" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="method#locationElement#0;class#AppiumTool#0" />
+                <element signature="method#sendKey#0;class#AppiumTool#0" />
+                <element signature="method#pageDownElement#0;class#AppiumTool#0" />
+                <element signature="method#pageDownEndElement#0;class#AppiumTool#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/Android/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding>
+                <element signature="method#login_judge#0;class#Login#0" />
+                <element signature="method#login_One#0;class#Login#0" />
+                <element signature="method#login_Two#0;class#Login#0" />
+                <element signature="method#login_Three#0;class#Login#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="XSLT Stylesheet" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>appiumAndroid</find>
+      <find>driver</find>
+      <find>System.out.print</find>
+      <find>System.out.printl</find>
+      <find>at</find>
+      <find>at.</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/AppiumAndroid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/AppiumAndroid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/testDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/Scheduled.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/TestDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/MainAppium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/DriverWait.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/SystemClock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/ExpectedCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/Clock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/AndroidDriverWait.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/OperationalElements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/AppiumTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/Screenshots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/Screenshots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/Screeshot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/ElementKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/ElementKey_SHOUYE.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Log/log.text" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/ElementKey_WODEYE.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/AssertMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/CameraTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/TimeLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublicMethod/AppiumTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Android/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StartMethod/Startserver.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/StartMethod/RunSuit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StartMethod/RunSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StartMethod/AppiumServerController.java" />
+        <option value="$PROJECT_DIR$/testng_xrs_homePage.xml.xsl" />
+        <option value="$PROJECT_DIR$/src/main/java/StartMethod/StartSetUp.java" />
+        <option value="$PROJECT_DIR$/testng_xrs_homePage.xml" />
+        <option value="$PROJECT_DIR$/src/java/StartMethod/AppiumServerController.java" />
+        <option value="$PROJECT_DIR$/src/java/PublicMethod/ElementKey_SHOUYE.java" />
+        <option value="$PROJECT_DIR$/src/java/StartMethod/RunSuite.java" />
+        <option value="$PROJECT_DIR$/src/java/PublicMethod/CameraTest.java" />
+        <option value="$PROJECT_DIR$/src/java/Android/Test.java" />
+        <option value="$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java" />
+        <option value="$PROJECT_DIR$/src/java/StartMethod/StartSetUp.java" />
+        <option value="$PROJECT_DIR$/src/java/Android/Login.java" />
+        <option value="$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java" />
+        <option value="$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="showVersions" value="true" />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="appiumAndroid" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="appiumAndroid" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="55" />
+    <option name="y" value="32" />
+    <option name="width" value="1440" />
+    <option name="height" value="828" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="appiumAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumAndroid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appiumAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appiumAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appiumAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appiumAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appiumAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PublicMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appiumAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StartMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appiumAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572867604876" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23957323" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/java" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Login.login">
+    <configuration name="CameraTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PublicMethod.CameraTest" />
+      <module name="appiumAndroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PublicMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunSuite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StartMethod.RunSuite" />
+      <module name="appiumAndroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StartMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appiumAndroid" />
+      <option name="PACKAGE_NAME" value="Android" />
+      <option name="MAIN_CLASS_NAME" value="Android.Login" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appiumAndroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Android.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Android" />
+      <option name="MAIN_CLASS_NAME" value="Android.Login" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appiumAndroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Android.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Android" />
+      <option name="MAIN_CLASS_NAME" value="Android.Test" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Login" />
+      <item itemvalue="Application.CameraTest" />
+      <item itemvalue="JUnit.Login.login" />
+      <item itemvalue="Application.RunSuite" />
+      <item itemvalue="JUnit.Test.t1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Login.login" />
+        <item itemvalue="JUnit.Test.t1" />
+        <item itemvalue="Application.RunSuite" />
+        <item itemvalue="JUnit.Login" />
+        <item itemvalue="Application.CameraTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a692af7-6218-4df6-921c-ba7f4be016dc" name="Default Changelist" comment="" />
+      <created>1563789061091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563789061091</updated>
+      <workItem from="1563789062994" duration="468000" />
+      <workItem from="1563789958055" duration="2298000" />
+      <workItem from="1563794828885" duration="534000" />
+      <workItem from="1563795367042" duration="710000" />
+      <workItem from="1563796122791" duration="149000" />
+      <workItem from="1563796274823" duration="389000" />
+      <workItem from="1563796668936" duration="45000" />
+      <workItem from="1563796716744" duration="36000" />
+      <workItem from="1563796755445" duration="475000" />
+      <workItem from="1563797239020" duration="313000" />
+      <workItem from="1563797578849" duration="383000" />
+      <workItem from="1563797964890" duration="104000" />
+      <workItem from="1563798071292" duration="299000" />
+      <workItem from="1563798373297" duration="259000" />
+      <workItem from="1563798635899" duration="283000" />
+      <workItem from="1563798926676" duration="644000" />
+      <workItem from="1563799588297" duration="370000" />
+      <workItem from="1563799984082" duration="200000" />
+      <workItem from="1563800288870" duration="473000" />
+      <workItem from="1563847686099" duration="142000" />
+      <workItem from="1563847831722" duration="1409000" />
+      <workItem from="1563850387360" duration="303000" />
+      <workItem from="1563867109780" duration="3291000" />
+      <workItem from="1563870952162" duration="1576000" />
+      <workItem from="1563874883482" duration="3561000" />
+      <workItem from="1563934913628" duration="1472000" />
+      <workItem from="1563950269206" duration="779000" />
+      <workItem from="1563952587658" duration="1922000" />
+      <workItem from="1563954730916" duration="464000" />
+      <workItem from="1563955316264" duration="1743000" />
+      <workItem from="1563958220623" duration="1456000" />
+      <workItem from="1563961187032" duration="3924000" />
+      <workItem from="1563970650433" duration="16480000" />
+      <workItem from="1564104698536" duration="4812000" />
+      <workItem from="1564122982360" duration="123000" />
+      <workItem from="1564124717198" duration="214000" />
+      <workItem from="1564569657372" duration="1061000" />
+      <workItem from="1564683716561" duration="1450000" />
+      <workItem from="1564686395430" duration="943000" />
+      <workItem from="1564971081046" duration="208000" />
+      <workItem from="1564971432029" duration="1310000" />
+      <workItem from="1564972793738" duration="924000" />
+      <workItem from="1564985396361" duration="578000" />
+      <workItem from="1564986170986" duration="2634000" />
+      <workItem from="1564998856612" duration="648000" />
+      <workItem from="1565085413322" duration="1516000" />
+      <workItem from="1565601738342" duration="4429000" />
+      <workItem from="1565685047846" duration="4115000" />
+      <workItem from="1565833434925" duration="1192000" />
+      <workItem from="1565837973252" duration="10171000" />
+      <workItem from="1565946261270" duration="784000" />
+      <workItem from="1566207384479" duration="2493000" />
+      <workItem from="1566281136850" duration="7975000" />
+      <workItem from="1566380396985" duration="1000" />
+      <workItem from="1566468215290" duration="2531000" />
+      <workItem from="1566810747149" duration="1207000" />
+      <workItem from="1566992556045" duration="77000" />
+      <workItem from="1568600980982" duration="21449000" />
+      <workItem from="1569209795690" duration="3339000" />
+      <workItem from="1569230370431" duration="16612000" />
+      <workItem from="1569469003608" duration="1321000" />
+      <workItem from="1569484348943" duration="7051000" />
+      <workItem from="1570501118691" duration="11832000" />
+      <workItem from="1570693884986" duration="15271000" />
+      <workItem from="1570873094402" duration="164000" />
+      <workItem from="1570893387090" duration="12904000" />
+      <workItem from="1571108869828" duration="320000" />
+      <workItem from="1571109196508" duration="2454000" />
+      <workItem from="1571121023044" duration="10562000" />
+      <workItem from="1571191001621" duration="24002000" />
+      <workItem from="1571622499119" duration="2885000" />
+      <workItem from="1572067822551" duration="100000" />
+      <workItem from="1572250509024" duration="22786000" />
+      <workItem from="1572832923190" duration="854000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Login_login - 2019.10.29 at 17h 21m 35s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.29 at 17h 24m 17s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.29 at 18h 00m 01s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.30 at 10h 53m 06s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.30 at 10h 56m 55s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.30 at 10h 58m 14s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.30 at 11h 02m 19s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.30 at 11h 05m 32s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.30 at 11h 06m 52s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login_login - 2019.10.30 at 11h 10m 46s.xml">
+      <configuration name="Login.login" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="252256000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23676682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.26385543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.29076087" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.31566265" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32880434" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32891566" />
+      <window_info anchor="bottom" id="TypeScript" order="15" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.16986156" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23390558" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.26385543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.29076087" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.31566265" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32880434" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32891566" />
+      <window_info anchor="bottom" id="TypeScript" order="15" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.16986156" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="249" column="43" selection-start-line="249" selection-start-column="43" selection-end-line="249" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/functions/ExpectedCondition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Android/Clock.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/time/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Android/SystemClock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Android/MainAppium.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Android/ExpectedCondition.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Android/AndroidDriverWait.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Android/OperationalElements.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/Keys.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PublicMethod/Screenshots.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/PublicMethod/Screeshot.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/awt/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="407" column="38" selection-start-line="407" selection-start-column="38" selection-end-line="407" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/RegularImmutableMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="287" selection-start-line="287" selection-end-line="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/DefaultGenericMobileDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableMapEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/AbstractMapEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/Hashing.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/base/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="567" selection-start-line="567" selection-end-line="567" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/CollectPreconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Log.kt" />
+    <entry file="file://$PROJECT_DIR$/src/java/Log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Photo/1.png" />
+    <entry file="file://$PROJECT_DIR$/target/classes/Android/Login.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Photo/test3.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Photo/test2.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Photo/test1.png" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="1011" selection-start-line="1011" selection-end-line="1011" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/remote/AppiumCommandExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/ElementKey_WODEYE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appiumAndroid.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/StartMethod/RunSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/StartMethod/AppiumServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="117" column="39" lean-forward="true" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng_xrs_homePage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/CameraTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+          <folding>
+            <element signature="e#2021#2067#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Android/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AssertMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Log/log.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/ElementKey_SHOUYE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Android/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="method#login_judge#0;class#Login#0" />
+            <element signature="method#login_One#0;class#Login#0" />
+            <element signature="method#login_Two#0;class#Login#0" />
+            <element signature="method#login_Three#0;class#Login#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="method#locationElement#0;class#AppiumTool#0" />
+            <element signature="method#sendKey#0;class#AppiumTool#0" />
+            <element signature="method#pageDownElement#0;class#AppiumTool#0" />
+            <element signature="method#pageDownEndElement#0;class#AppiumTool#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23957323" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23957323" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23957323" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23957323" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>appiumAndroid</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23957323" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>java-client-6.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23957323" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5055147" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean compile" />
+  </component>
+</project>

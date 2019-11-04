@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="caseCshOne" parallel="true">
+    <parameter name="suitName" value="caseCshOne" />
+    <parameter name="node" value="node" />
+    <parameter name="appium.js"
+               value="D:\appium\Appium\node_modules\appium\bin\appium.js" />
+    <parameter name="port" value="4725" />
+    <parameter name="bootstrap_port" value="4726" />
+    <parameter name="chromedriver_port" value="9516" />
+    <parameter name="udid" value="HYJNW18C14004821" />
+    <parameter name="platformName" value="Android" />
+    <parameter name="platformVersion" value="5.0.2" />
+    <parameter name="deviceName" value="HYJNW18C14004821" />
+    <parameter name="appPackage" value="com.xes.jazhanghui.activity" />
+    <parameter name="appActivity" value="com.xes.jazhanghui.activity.mvp.start.StartActivity" />
+    <parameter name="noReset" value="false" />
+    <parameter name="app" value="Users\eeexiao\Downloads\appiumAndroid\apps\xesapp.apk" />
+
+    <test name="学而思APP登录" preserver-order="true">
+        <classes>
+            <class
+                    name="Android.Login"/>
+        </classes>
+    </test>
+    <!-- <test name="Animation"> <classes> <class name="test.java.com..trydrive.testNGParallel.test.TestAnimation"
+        /> </classes> </test> -->
+
+    <!--test name="loan_help"> <classes> <class name="main.java.test.TestLoan"/>
+        </classes> </test E:\apptium\Appium\node_modules\appium\lib\appium.js E:\apptium\Appium\node_modules\appium\node_modules\node-simctl\node_modules\es6-mapify\lib\es5\main.js -->
+</suite>
