@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a692af7-6218-4df6-921c-ba7f4be016dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,7 +64,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="33" />
-          <entry key="java" value="12639" />
+          <entry key="java" value="12655" />
           <entry key="text" value="1" />
           <entry key="txt" value="5" />
           <entry key="xml" value="401" />
@@ -71,7 +72,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12639" />
+          <entry key="JAVA" value="12655" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="SQL" value="2" />
           <entry key="XML" value="399" />
@@ -98,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+            <state relative-caret-position="242">
+              <caret line="107" column="60" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1152#1153#0" expanded="true" />
@@ -330,7 +331,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572867604876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572871269493" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -525,7 +526,7 @@
       <workItem from="1571622499119" duration="2885000" />
       <workItem from="1572067822551" duration="100000" />
       <workItem from="1572250509024" duration="22786000" />
-      <workItem from="1572832923190" duration="854000" />
+      <workItem from="1572832923190" duration="1997000" />
     </task>
     <servers />
   </component>
@@ -562,7 +563,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252256000" />
+    <option name="totallyTimeSpent" value="253399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,6 +576,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23676682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -919,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+        <state relative-caret-position="242">
+          <caret line="107" column="60" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1152#1153#0" expanded="true" />

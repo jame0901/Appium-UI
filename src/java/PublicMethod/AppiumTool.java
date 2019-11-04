@@ -106,12 +106,15 @@ public class AppiumTool{
         capabilities.setCapability("appActivity", "com.xes.jazhanghui.activity.mvp.start.StartActivity");
         //支持中文输入
         capabilities.setCapability("unicodeKeyboard", true);
+        tl.insertLog("test");
         //测试结束后还原默认输入法
         capabilities.setCapability("resetKeyboard", true);
         //Appium与IDEA 测试机通信协议
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         tl.insertLog("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-
+        tl.insertLog("test");
+        tl.insertLog("test");
+        tl.insertLog("test");
     }
 
     public void clcikElements(String element,int time,int number)throws Exception{
