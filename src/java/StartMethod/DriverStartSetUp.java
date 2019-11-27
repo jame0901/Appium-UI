@@ -6,6 +6,7 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.File;
 import java.net.URL;
+import java.util.Scanner;
 
 public class DriverStartSetUp {
 
@@ -65,4 +66,66 @@ public class DriverStartSetUp {
 //        return at;
 //    }
 
+//    public static void getRepeateNum(int[] num) {
+//        int NumChange;
+//        System.out.println("重复数字是：");
+//        for(int i = 0; i < num.length; i++) {
+//            while(num[i] != i) {
+//                if(num[i] == num[num[i]]) {
+//                    System.out.println(num[i]);
+//                    break;
+//                } else {
+//                    NumChange = num[num[i]];
+//                    num[num[i]] = num[i];
+//                    num[i] = NumChange;
+//                }
+//            }
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        int[] num = new int[5];   //数组长度可以自己定义
+//        System.out.println("请输入一组数据：");
+//        for (int j = 0; j < 5; j++) {
+//            num[j] = scanner.nextInt();
+//        }
+//        getRepeateNum(num);
+//    }
+    public static void main(String[] args) {
+        int[] num = {1, 2, 13, 1, 13, 3, 5, 5, 7, 9, 9, 10, 10, 18, 18};
+        int number;
+        for (int i = 0; i < num.length; i++){
+            for (int j = 0; j < num.length; j++){
+                if ((num[i] == num[j]) && (i!=j)){
+                        System.out.println(num[j]);
+                }
+            }
+        }
+        //从小到大排序
+        for (int i = 0; i < num.length - 1; i++) {
+            for (int j = 0; j < num.length - 1 - i; j++) {
+                if (num[j] > num[j + 1]) {
+                    number = num[j];
+                    num[j] = num[j + 1];
+                    num[j + 1] = number;
+                }
+            }
+        }
+        //从大到小排序
+        for (int i = 0;i < num.length-1 ; i++){
+            for (int j = num.length - 1; j > 0; j--) {
+                if (num[j] > num[j-1]){
+                    number = num[j];
+                    num[j] = num[j - 1];
+                    num[j - 1] = number;
+                }
+            }
+        }
+        System.out.print("排序后的数组：");
+        for (int x:num) {
+            System.out.print(x+" ");
+        }
+        System.out.println("");
+    }
 }

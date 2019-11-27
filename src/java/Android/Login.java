@@ -102,7 +102,7 @@ public class Login extends AppiumTool{
         if(!string.equals("1")){
             login_One();
         }else {
-            tl.insertLog("没有找到登录页（学而思账号登录）按钮");
+            tl.insertLog("没有找到登录页（账号登录）按钮");
         }
         string = locationElement("str2",ElementKey_SHOUYE.Android_SHOUYE_WODEANNIU.getElement(),1000,"2",1);
         if (!string.equals("2")){
