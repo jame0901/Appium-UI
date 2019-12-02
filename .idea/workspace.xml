@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a692af7-6218-4df6-921c-ba7f4be016dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Android/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Android/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Android/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Android/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PublicMethod/AppiumTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PublicMethod/AppiumTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StartMethod/DriverStartSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StartMethod/DriverStartSetUp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,12 +16,12 @@
     <session id="-1292946214">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="75" />
+          <entry key="project.closed" value="77" />
           <entry key="project.open.time.1" value="25" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="13" />
-          <entry key="project.open.time.13" value="7" />
+          <entry key="project.open.time.13" value="8" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="4" />
           <entry key="project.open.time.16" value="1" />
@@ -37,7 +32,7 @@
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="80" />
+          <entry key="project.opened" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,7 +40,7 @@
           <entry key="Log" value="1" />
           <entry key="class" value="38" />
           <entry key="iml" value="10" />
-          <entry key="java" value="137" />
+          <entry key="java" value="138" />
           <entry key="kt" value="1" />
           <entry key="png" value="10" />
           <entry key="text" value="106" />
@@ -58,7 +53,7 @@
           <entry key="CLASS" value="38" />
           <entry key="IDEA_MODULE" value="10" />
           <entry key="Image" value="10" />
-          <entry key="JAVA" value="137" />
+          <entry key="JAVA" value="138" />
           <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="106" />
           <entry key="TypeScript" value="1" />
@@ -91,90 +86,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="122" column="64" selection-start-line="122" selection-start-column="64" selection-end-line="122" selection-end-column="64" />
+            <state relative-caret-position="741">
+              <caret line="115" column="81" selection-start-line="115" selection-start-column="81" selection-end-line="115" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1152#1153#0" expanded="true" />
                 <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="method#setUp#0;class#AppiumTool#0" />
+                <element signature="method#clcikElements#0;class#AppiumTool#0" />
                 <element signature="method#locationElement#0;class#AppiumTool#0" />
                 <element signature="method#sendKey#0;class#AppiumTool#0" />
                 <element signature="method#pageDownElement#0;class#AppiumTool#0" />
                 <element signature="method#pageDownEndElement#0;class#AppiumTool#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/Android/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#login_Three#0;class#Login#0" />
-                <element signature="method#login#0;class#Login#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-339">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/CameraTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="54" column="59" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="59" />
-              <folding>
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="128" column="31" lean-forward="true" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/ElementKey_SHOUYE.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="e#1739#1740#0" expanded="true" />
-                <element signature="e#1777#1778#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#1894#1895#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -301,8 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,7 +271,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,7 +281,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574820276800" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574820401380" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -556,7 +482,8 @@
       <workItem from="1573695644633" duration="1232000" />
       <workItem from="1574042535902" duration="4293000" />
       <workItem from="1574128541805" duration="2050000" />
-      <workItem from="1574754974106" duration="2674000" />
+      <workItem from="1574754974106" duration="3009000" />
+      <workItem from="1574822677942" duration="581000" />
     </task>
     <servers />
   </component>
@@ -593,7 +520,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267360000" />
+    <option name="totallyTimeSpent" value="268276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +535,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -881,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/ElementKey_WODEYE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/StartMethod/AppiumServerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -902,19 +822,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java">
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/ElementKey_SHOUYE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="435">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="106" column="58" lean-forward="true" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/CameraTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="346">
           <caret line="54" column="59" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="59" />
           <folding>
             <element signature="e#818#819#0" expanded="true" />
@@ -929,52 +861,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java">
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="128" column="31" lean-forward="true" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/ElementKey_SHOUYE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="15">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
-            <element signature="e#1739#1740#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/ElementKey_WODEYE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="122" column="64" selection-start-line="122" selection-start-column="64" selection-end-line="122" selection-end-column="64" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="method#locationElement#0;class#AppiumTool#0" />
-            <element signature="method#sendKey#0;class#AppiumTool#0" />
-            <element signature="method#pageDownElement#0;class#AppiumTool#0" />
-            <element signature="method#pageDownEndElement#0;class#AppiumTool#0" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/Android/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#login_Three#0;class#Login#0" />
             <element signature="method#login#0;class#Login#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="115" column="81" selection-start-line="115" selection-start-column="81" selection-end-line="115" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="method#setUp#0;class#AppiumTool#0" />
+            <element signature="method#clcikElements#0;class#AppiumTool#0" />
+            <element signature="method#locationElement#0;class#AppiumTool#0" />
+            <element signature="method#sendKey#0;class#AppiumTool#0" />
+            <element signature="method#pageDownElement#0;class#AppiumTool#0" />
+            <element signature="method#pageDownEndElement#0;class#AppiumTool#0" />
           </folding>
         </state>
       </provider>

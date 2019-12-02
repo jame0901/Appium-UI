@@ -293,7 +293,7 @@ public class AppiumTool{
             }
         }catch (Exception e){
 
-            tl.insertLog("页面小幅度下啦加载失败");
+            tl.insertLog("页面小幅度拉加载失败");
         }
     }
 
@@ -334,7 +334,7 @@ public class AppiumTool{
             }
         }catch (Exception e){
 
-            tl.insertLog("页面下啦到底加载失败");
+            tl.insertLog("页面下拉到底加载失败");
         }
     }
 
