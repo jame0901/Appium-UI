@@ -1,6 +1,6 @@
 package PublicMethod;
 
-public enum ElementKey_SHOUYE {
+public enum Android_ElementKey_SHOUYE {
 
     //启动页
     Android_QIDONGYE_XUEERSIZHANGHAOMIMADENGLU("//android.widget.TextView[@resource-id='com.xes.jazhanghui.activity:id/tv_login_xes']"),
@@ -22,7 +22,7 @@ public enum ElementKey_SHOUYE {
 
     private String element = null;
 
-    private ElementKey_SHOUYE(String element) {
+    private Android_ElementKey_SHOUYE(String element) {
         this.element = element;
     }
 

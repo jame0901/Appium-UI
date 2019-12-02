@@ -121,27 +121,35 @@ public class AppiumTool{
 
               case 1:
                   driver.findElement(By.xpath(element)).click();
+                  tl.insertLog("点击元素"+element);
                   break;
               case 2:
                   driver.findElement(By.linkText(element)).click();
+                  tl.insertLog("点击元素"+element);
                   break;
               case 3:
                   driver.findElement(By.className(element)).click();
+                  tl.insertLog("点击元素"+element);
                   break;
               case 4:
                   driver.findElement(By.id(element)).click();
+                  tl.insertLog("点击元素"+element);
                   break;
               case 5:
                   driver.findElement(By.name(element)).click();
+                  tl.insertLog("点击元素"+element);
                   break;
               case 6:
                   driver.findElement(By.partialLinkText(element)).click();
+                  tl.insertLog("点击元素"+element);
                   break;
               case 7:
                   driver.findElement(By.tagName(element)).click();
+                  tl.insertLog("点击元素"+element);
                   break;
               case 8:
                   driver.findElement(By.cssSelector(element)).click();
+                  tl.insertLog("点击元素"+element);
                   break;
               default:
                   tl.insertLog("输入不符合要求的查找元素方式");
@@ -217,34 +225,42 @@ public class AppiumTool{
                 case 1:
                     driver.findElement(By.xpath(element)).clear();
                     driver.findElement(By.xpath(element)).sendKeys(sendkey);
+                    tl.insertLog("输入元素"+element);
                     break;
                 case 2:
                     driver.findElement(By.linkText(element)).clear();
                     driver.findElement(By.linkText(element)).sendKeys(sendkey);
+                    tl.insertLog("输入元素"+element);
                     break;
                 case 3:
                     driver.findElement(By.className(element)).clear();
                     driver.findElement(By.className(element)).sendKeys(sendkey);
+                    tl.insertLog("输入元素"+element);
                     break;
                 case 4:
                     driver.findElement(By.id(element)).clear();
                     driver.findElement(By.id(element)).sendKeys(sendkey);
+                    tl.insertLog("输入元素"+element);
                     break;
                 case 5:
                     driver.findElement(By.name(element)).clear();
                     driver.findElement(By.name(element)).sendKeys(sendkey);
+                    tl.insertLog("输入元素"+element);
                     break;
                 case 6:
                     driver.findElement(By.partialLinkText(element)).clear();
                     driver.findElement(By.partialLinkText(element)).sendKeys(sendkey);
+                    tl.insertLog("输入元素"+element);
                     break;
                 case 7:
                     driver.findElement(By.tagName(element)).clear();
                     driver.findElement(By.tagName(element)).sendKeys(sendkey);
+                    tl.insertLog("输入元素"+element);
                     break;
                 case 8:
                     driver.findElement(By.cssSelector(element)).clear();
                     driver.findElement(By.cssSelector(element)).sendKeys(sendkey);
+                    tl.insertLog("输入元素"+element);
                     break;
                 default:
                     tl.insertLog("输入不符合要求的查找元素方式");
