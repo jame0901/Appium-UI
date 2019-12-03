@@ -1,14 +1,16 @@
 package PublicMethod;
 
 import StartMethod.DriverStartSetUp;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.net.URL;
+import java.time.Duration;
 
 public class AppiumTool{
     public AndroidDriver driver;
@@ -19,6 +21,8 @@ public class AppiumTool{
     private String i ;
     private int number;
     private String string;
+    Point point;
+    Dimension dimension;
     TimeLog tl = new TimeLog();
     DesiredCapabilities capabilities = new DesiredCapabilities();
 
@@ -351,6 +355,95 @@ public class AppiumTool{
         }catch (Exception e){
 
             tl.insertLog("页面下拉到底加载失败");
+        }
+    }
+
+    public void touchActionElement(String element,int number,int time,Heading heading)throws Exception{
+
+        int startX = 0;
+        int startY = 0;
+        int width = 0;
+        int height = 0;
+        int endX = 0;
+        int endY = 0;
+        int centerX = 0;
+        int centerY = 0;
+        Thread.sleep(time);
+        try {
+            switch (number){
+                case 1:
+                    point = driver.findElement(By.xpath(element)).getLocation();
+                    dimension = driver.findElement(By.xpath(element)).getSize();
+                case 2:
+                    point = driver.findElement(By.linkText(element)).getLocation();
+                    dimension = driver.findElement(By.xpath(element)).getSize();
+                case 3:
+                    point = driver.findElement(By.className(element)).getLocation();
+                    dimension = driver.findElement(By.xpath(element)).getSize();
+                case 4:
+                    point = driver.findElement(By.id(element)).getLocation();
+                    dimension = driver.findElement(By.xpath(element)).getSize();
+                case 5:
+                    point = driver.findElement(By.name(element)).getLocation();
+                    dimension = driver.findElement(By.xpath(element)).getSize();
+                case 6:
+                    point = driver.findElement(By.partialLinkText(element)).getLocation();
+                    dimension = driver.findElement(By.xpath(element)).getSize();
+                case 7:
+                    point = driver.findElement(By.tagName(element)).getLocation();
+                    dimension = driver.findElement(By.xpath(element)).getSize();
+                case 8:
+                    point = driver.findElement(By.cssSelector(element)).getLocation();
+                    dimension = driver.findElement(By.xpath(element)).getSize();
+            }
+            //获取元素开始坐标
+            startX = point.x;
+            startY = point.y;
+            //获取元素宽、高
+            width = dimension.width;
+            height = dimension.height;
+            //得到元素坐标的结束坐标
+            endX = startX+width;
+            endY = startY+height;
+            //得到元素中间坐标
+            centerX = (startX + endX)/2;
+            centerY = (startY + endY)/2;
+        }catch (Exception e){
+
+            tl.insertLog("元素："+element+"定位异常");
+        }
+
+        try {
+            switch (heading) {
+                // 向右滑动
+                case RIGHT:
+                    new TouchAction(driver)
+                            .press(PointOption.point(startX,startY))
+                            .waitAction(WaitOptions.waitOptions(Duration.ofDays(1000)))
+                            .moveTo(PointOption.point(centerX,startY));
+                break;
+                // 向左滑动
+                case LEFT:
+                    new TouchAction(driver)
+                            .press(PointOption.point(endX,endY))
+                            .waitAction(WaitOptions.waitOptions(Duration.ofDays(1000)))
+                            .moveTo(PointOption.point(centerX,endY));
+                    break;
+                //向上滑动
+                case UP:
+                    new TouchAction(driver).press(PointOption.point(centerX,centerY))
+                            .waitAction(WaitOptions.waitOptions(Duration.ofDays(1000)))
+                            .moveTo(PointOption.point(centerX,centerY + 10));
+                    break;
+                //向下滑动
+                case DOWN:
+                    new TouchAction(driver).press(PointOption.point(centerX,centerY))
+                            .waitAction(WaitOptions.waitOptions(Duration.ofDays(1000)))
+                            .moveTo(PointOption.point(centerX,centerY - 10));
+                    break;
+            }
+        }catch (Exception e){
+            System.out.println("滑动元素"+element+"异常");
         }
     }
 
