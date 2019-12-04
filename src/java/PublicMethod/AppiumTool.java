@@ -117,41 +117,41 @@ public class AppiumTool{
         tl.insertLog("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
     }
 
-    public void clcikElements(String element,int time,int number)throws Exception{
+    public void clcikElements(String element,int time,ElementMethod elementMethod)throws Exception{
 
       try{
           Thread.sleep(time);
-          switch (number){
+          switch (elementMethod){
 
-              case 1:
+              case xpath:
                   driver.findElement(By.xpath(element)).click();
                   tl.insertLog("点击元素"+element);
                   break;
-              case 2:
+              case linkText:
                   driver.findElement(By.linkText(element)).click();
                   tl.insertLog("点击元素"+element);
                   break;
-              case 3:
+              case className:
                   driver.findElement(By.className(element)).click();
                   tl.insertLog("点击元素"+element);
                   break;
-              case 4:
+              case id:
                   driver.findElement(By.id(element)).click();
                   tl.insertLog("点击元素"+element);
                   break;
-              case 5:
+              case name:
                   driver.findElement(By.name(element)).click();
                   tl.insertLog("点击元素"+element);
                   break;
-              case 6:
+              case partialLinkText:
                   driver.findElement(By.partialLinkText(element)).click();
                   tl.insertLog("点击元素"+element);
                   break;
-              case 7:
+              case tagName:
                   driver.findElement(By.tagName(element)).click();
                   tl.insertLog("点击元素"+element);
                   break;
-              case 8:
+              case cssSelector:
                   driver.findElement(By.cssSelector(element)).click();
                   tl.insertLog("点击元素"+element);
                   break;
@@ -168,42 +168,42 @@ public class AppiumTool{
       }
     }
 
-    public String locationElement (String string,String element,int time,String i,int number)throws Exception{
+    public String locationElement (String string,String element,int time,String i,ElementMethod elementMethod)throws Exception{
 
         try {
 
             Thread.sleep(time);
-            switch (number){
+            switch (elementMethod){
 
-                case 1:
+                case xpath:
                     string = driver.findElement(By.xpath(element)).toString();
                     tl.insertLog("找到元素"+element);
                     break;
-                case 2:
+                case linkText:
                     string = driver.findElement(By.linkText(element)).toString();
                     tl.insertLog("找到元素"+element);
                     break;
-                case 3:
+                case className:
                     string = driver.findElement(By.className(element)).toString();
                     tl.insertLog("找到元素"+element);
                     break;
-                case 4:
+                case id:
                     string = driver.findElement(By.id(element)).toString();
                     tl.insertLog("找到元素"+element);
                     break;
-                case 5:
+                case name:
                     string = driver.findElement(By.name(element)).toString();
                     tl.insertLog("找到元素"+element);
                     break;
-                case 6:
+                case partialLinkText:
                     string = driver.findElement(By.partialLinkText(element)).toString();
                     tl.insertLog("找到元素"+element);
                     break;
-                case 7:
+                case tagName:
                     string = driver.findElement(By.tagName(element)).toString();
                     tl.insertLog("找到元素"+element);
                     break;
-                case 8:
+                case cssSelector:
                     string = driver.findElement(By.cssSelector(element)).toString();
                     tl.insertLog("找到元素"+element);
                     break;
@@ -219,49 +219,49 @@ public class AppiumTool{
         return string;
     }
 
-    public void sendKey(String element,String sendkey,int time,int number)throws Exception{
+    public void sendKey(String element,String sendkey,int time,ElementMethod elementMethod)throws Exception{
 
         try {
 
             Thread.sleep(time);
-            switch (number){
+            switch (elementMethod){
 
-                case 1:
+                case xpath:
                     driver.findElement(By.xpath(element)).clear();
                     driver.findElement(By.xpath(element)).sendKeys(sendkey);
                     tl.insertLog("输入元素"+element);
                     break;
-                case 2:
+                case linkText:
                     driver.findElement(By.linkText(element)).clear();
                     driver.findElement(By.linkText(element)).sendKeys(sendkey);
                     tl.insertLog("输入元素"+element);
                     break;
-                case 3:
+                case className:
                     driver.findElement(By.className(element)).clear();
                     driver.findElement(By.className(element)).sendKeys(sendkey);
                     tl.insertLog("输入元素"+element);
                     break;
-                case 4:
+                case id:
                     driver.findElement(By.id(element)).clear();
                     driver.findElement(By.id(element)).sendKeys(sendkey);
                     tl.insertLog("输入元素"+element);
                     break;
-                case 5:
+                case name:
                     driver.findElement(By.name(element)).clear();
                     driver.findElement(By.name(element)).sendKeys(sendkey);
                     tl.insertLog("输入元素"+element);
                     break;
-                case 6:
+                case partialLinkText:
                     driver.findElement(By.partialLinkText(element)).clear();
                     driver.findElement(By.partialLinkText(element)).sendKeys(sendkey);
                     tl.insertLog("输入元素"+element);
                     break;
-                case 7:
+                case tagName:
                     driver.findElement(By.tagName(element)).clear();
                     driver.findElement(By.tagName(element)).sendKeys(sendkey);
                     tl.insertLog("输入元素"+element);
                     break;
-                case 8:
+                case cssSelector:
                     driver.findElement(By.cssSelector(element)).clear();
                     driver.findElement(By.cssSelector(element)).sendKeys(sendkey);
                     tl.insertLog("输入元素"+element);
@@ -276,35 +276,35 @@ public class AppiumTool{
         }
     }
 
-    public void pageDownElement(String element,int number,int time)throws Exception{
+    public void pageDownElement(String element,ElementMethod elementMethod,int time)throws Exception{
 
         Thread.sleep(time);
         try {
 
-            switch (number){
+            switch (elementMethod){
 
-                case 1:
+                case xpath:
                     driver.findElement(By.xpath(element)).sendKeys(Keys.PAGE_DOWN);
                     break;
-                case 2:
+                case linkText:
                     driver.findElement(By.linkText(element)).sendKeys(Keys.PAGE_DOWN);
                     break;
-                case 3:
+                case className:
                     driver.findElement(By.className(element)).sendKeys(Keys.PAGE_DOWN);
                     break;
-                case 4:
+                case id:
                     driver.findElement(By.id(element)).sendKeys(Keys.PAGE_DOWN);
                     break;
-                case 5:
+                case name:
                     driver.findElement(By.name(element)).sendKeys(Keys.PAGE_DOWN);
                     break;
-                case 6:
+                case partialLinkText:
                     driver.findElement(By.partialLinkText(element)).sendKeys(Keys.PAGE_DOWN);
                     break;
-                case 7:
+                case tagName:
                     driver.findElement(By.tagName(element)).sendKeys(Keys.PAGE_DOWN);
                     break;
-                case 8:
+                case cssSelector:
                     driver.findElement(By.cssSelector(element)).sendKeys(Keys.PAGE_DOWN);
                     break;
                 default:
@@ -317,35 +317,35 @@ public class AppiumTool{
         }
     }
 
-    public void pageDownEndElement(String element,int number,int time)throws Exception{
+    public void pageDownEndElement(String element,ElementMethod elementMethod,int time)throws Exception{
 
         Thread.sleep(time);
         try {
 
-            switch (number){
+            switch (elementMethod){
 
-                case 1:
+                case xpath:
                     driver.findElement(By.xpath(element)).sendKeys(Keys.END);
                     break;
-                case 2:
+                case linkText:
                     driver.findElement(By.linkText(element)).sendKeys(Keys.END);
                     break;
-                case 3:
+                case className:
                     driver.findElement(By.className(element)).sendKeys(Keys.END);
                     break;
-                case 4:
+                case id:
                     driver.findElement(By.id(element)).sendKeys(Keys.END);
                     break;
-                case 5:
+                case name:
                     driver.findElement(By.name(element)).sendKeys(Keys.END);
                     break;
-                case 6:
+                case partialLinkText:
                     driver.findElement(By.partialLinkText(element)).sendKeys(Keys.END);
                     break;
-                case 7:
+                case tagName:
                     driver.findElement(By.tagName(element)).sendKeys(Keys.END);
                     break;
-                case 8:
+                case cssSelector:
                     driver.findElement(By.cssSelector(element)).sendKeys(Keys.END);
                     break;
                 default:
@@ -358,7 +358,7 @@ public class AppiumTool{
         }
     }
 
-    public void touchActionElement(String element,int number,int time,Heading heading)throws Exception{
+    public void touchActionElement(String element,ElementMethod elementMethod,int time,Heading heading)throws Exception{
 
         int startX = 0;
         int startY = 0;
@@ -370,29 +370,29 @@ public class AppiumTool{
         int centerY = 0;
         Thread.sleep(time);
         try {
-            switch (number){
-                case 1:
+            switch (elementMethod){
+                case xpath:
                     point = driver.findElement(By.xpath(element)).getLocation();
                     dimension = driver.findElement(By.xpath(element)).getSize();
-                case 2:
+                case linkText:
                     point = driver.findElement(By.linkText(element)).getLocation();
                     dimension = driver.findElement(By.xpath(element)).getSize();
-                case 3:
+                case className:
                     point = driver.findElement(By.className(element)).getLocation();
                     dimension = driver.findElement(By.xpath(element)).getSize();
-                case 4:
+                case id:
                     point = driver.findElement(By.id(element)).getLocation();
                     dimension = driver.findElement(By.xpath(element)).getSize();
-                case 5:
+                case name:
                     point = driver.findElement(By.name(element)).getLocation();
                     dimension = driver.findElement(By.xpath(element)).getSize();
-                case 6:
+                case partialLinkText:
                     point = driver.findElement(By.partialLinkText(element)).getLocation();
                     dimension = driver.findElement(By.xpath(element)).getSize();
-                case 7:
+                case tagName:
                     point = driver.findElement(By.tagName(element)).getLocation();
                     dimension = driver.findElement(By.xpath(element)).getSize();
-                case 8:
+                case cssSelector:
                     point = driver.findElement(By.cssSelector(element)).getLocation();
                     dimension = driver.findElement(By.xpath(element)).getSize();
             }
