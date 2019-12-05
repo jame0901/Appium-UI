@@ -96,7 +96,7 @@ public class DriverStartSetUp {
         int[] num = {1, 2, 13, 1, 13, 3, 5, 5, 7, 9, 9, 10, 10, 18, 18};
         int number;
         for (int i = 0; i < num.length; i++){
-            for (int j = 0; j < num.length; j++){
+            for (int j = i; j < num.length; j++){
                 if ((num[i] == num[j]) && (i!=j)){
                         System.out.println(num[j]);
                 }

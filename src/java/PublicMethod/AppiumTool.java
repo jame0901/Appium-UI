@@ -19,7 +19,6 @@ public class AppiumTool{
     private int time;
     private String sendkey;
     private String i ;
-    private int number;
     private String string;
     Point point;
     Dimension dimension;
@@ -52,14 +51,6 @@ public class AppiumTool{
 
     public void setTime(int time) {
         this.time = time;
-    }
-
-    public int getNumber(){
-        return number;
-    }
-
-    public void setNumber(int number) {
-        this.number = number;
     }
 
     public String getI(){

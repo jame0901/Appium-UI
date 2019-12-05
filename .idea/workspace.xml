@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a692af7-6218-4df6-921c-ba7f4be016dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/PublicMethod/ElementMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Android/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Android/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Log/log.text" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Log/log.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Android/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Android/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Log/log.text" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Log/log.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PublicMethod/AppiumTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PublicMethod/AppiumTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StartMethod/DriverStartSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StartMethod/DriverStartSetUp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,10 +46,10 @@
           <entry key="Log" value="1" />
           <entry key="class" value="42" />
           <entry key="iml" value="10" />
-          <entry key="java" value="151" />
+          <entry key="java" value="156" />
           <entry key="kt" value="1" />
           <entry key="png" value="10" />
-          <entry key="text" value="107" />
+          <entry key="text" value="108" />
           <entry key="xml" value="34" />
           <entry key="xsl" value="3" />
         </counts>
@@ -56,9 +59,9 @@
           <entry key="CLASS" value="42" />
           <entry key="IDEA_MODULE" value="10" />
           <entry key="Image" value="10" />
-          <entry key="JAVA" value="151" />
+          <entry key="JAVA" value="156" />
           <entry key="Kotlin" value="1" />
-          <entry key="PLAIN_TEXT" value="107" />
+          <entry key="PLAIN_TEXT" value="108" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="37" />
         </counts>
@@ -66,7 +69,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="50" />
-          <entry key="java" value="14045" />
+          <entry key="java" value="14051" />
           <entry key="text" value="1" />
           <entry key="txt" value="5" />
           <entry key="xml" value="401" />
@@ -74,7 +77,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14045" />
+          <entry key="JAVA" value="14051" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="SQL" value="2" />
           <entry key="XML" value="399" />
@@ -89,13 +92,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="394" column="32" selection-start-line="394" selection-start-column="32" selection-end-line="394" selection-end-column="32" />
+            <state relative-caret-position="330">
+              <caret line="429" column="69" lean-forward="true" selection-start-line="429" selection-start-column="69" selection-end-line="429" selection-end-column="69" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#setOperationalElements#0;class#AppiumTool#0" />
                 <element signature="method#setUp#0;class#AppiumTool#0" />
                 <element signature="method#clcikElements#0;class#AppiumTool#0" />
@@ -108,23 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/ElementMethod.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -132,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/Android/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="114" column="122" selection-start-line="114" selection-start-column="122" selection-end-line="114" selection-end-column="122" />
+            <state relative-caret-position="-412">
+              <caret line="63" column="114" selection-start-line="63" selection-start-column="109" selection-end-line="63" selection-end-column="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,13 +202,13 @@
         <option value="$PROJECT_DIR$/src/java/StartMethod/RunSuite.java" />
         <option value="$PROJECT_DIR$/src/java/StartMethod/AppiumServerController.java" />
         <option value="$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java" />
-        <option value="$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java" />
         <option value="$PROJECT_DIR$/src/java/PublicMethod/Android_ElementKey_SHOUYE.java" />
         <option value="$PROJECT_DIR$/src/java/PublicMethod/CameraTest.java" />
         <option value="$PROJECT_DIR$/src/java/PublicMethod/Heading.java" />
         <option value="$PROJECT_DIR$/src/java/PublicMethod/ElementMethod.java" />
         <option value="$PROJECT_DIR$/src/java/Android/Login.java" />
         <option value="$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java" />
+        <option value="$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java" />
       </list>
     </option>
   </component>
@@ -326,7 +316,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575442412068" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575540335641" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -431,10 +421,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DriverStartSetUp" />
+        <item itemvalue="JUnit.Login" />
         <item itemvalue="JUnit.Login.login" />
         <item itemvalue="JUnit.Test.t1" />
         <item itemvalue="Application.RunSuite" />
-        <item itemvalue="JUnit.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -529,17 +519,11 @@
       <workItem from="1574128541805" duration="2050000" />
       <workItem from="1574754974106" duration="3009000" />
       <workItem from="1574822677942" duration="581000" />
-      <workItem from="1575274327385" duration="7649000" />
+      <workItem from="1575274327385" duration="10045000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Login_login - 2019.10.29 at 17h 21m 35s.xml">
-      <configuration name="Login.login" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Login_login - 2019.10.29 at 17h 24m 17s.xml">
-      <configuration name="Login.login" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Login_login - 2019.10.29 at 18h 00m 01s.xml">
       <configuration name="Login.login" configurationId="JUnit" />
     </history-entry>
@@ -564,9 +548,15 @@
     <history-entry file="Login_login - 2019.10.30 at 11h 10m 46s.xml">
       <configuration name="Login.login" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Login - 2019.12.04 at 15h 13m 05s.xml">
+      <configuration name="Login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login - 2019.12.05 at 18h 01m 12s.xml">
+      <configuration name="Login" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275925000" />
+    <option name="totallyTimeSpent" value="278321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,7 +571,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26466382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26466382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -591,13 +581,13 @@
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.26385543" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.26385543" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32771084" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.23253012" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.23253012" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.29076087" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.31566265" />
@@ -825,24 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/Log/log.text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/StartMethod/RunSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="126" column="33" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -877,23 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/Heading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -912,20 +871,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/TimeLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/Android_ElementKey_SHOUYE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/Android/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="122" selection-start-line="114" selection-start-column="122" selection-end-line="114" selection-end-column="122" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,12 +895,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/Heading.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="394" column="32" selection-start-line="394" selection-start-column="32" selection-end-line="394" selection-end-column="32" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Log/log.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Android/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="63" column="114" selection-start-line="63" selection-start-column="109" selection-end-line="63" selection-end-column="114" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/PublicMethod/AppiumTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="429" column="69" lean-forward="true" selection-start-line="429" selection-start-column="69" selection-end-line="429" selection-end-column="69" />
+          <folding>
             <element signature="method#setOperationalElements#0;class#AppiumTool#0" />
             <element signature="method#setUp#0;class#AppiumTool#0" />
             <element signature="method#clcikElements#0;class#AppiumTool#0" />
@@ -950,6 +932,13 @@
             <element signature="method#pageDownElement#0;class#AppiumTool#0" />
             <element signature="method#pageDownEndElement#0;class#AppiumTool#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/StartMethod/DriverStartSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
         </state>
       </provider>
     </entry>
