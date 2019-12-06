@@ -13,20 +13,6 @@ public class DriverStartSetUp {
 //    private AndroidDriver driver;
 //    public AppiumTool at;
 //    private TimeLog tl = new TimeLog();
-//    private static final DriverStartSetUp driverStartSetUp = new DriverStartSetUp();
-//
-//    public static AndroidDriver getDriver() {
-//        return driverStartSetUp.driver;
-//    }
-//
-//    public DriverStartSetUp() {
-//
-//    }
-//
-//    private DriverStartSetUp(AndroidDriver driver) throws Exception {
-//        init();
-//    }
-//
 //    public void init() throws Exception {
 //
 //        DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -57,75 +43,10 @@ public class DriverStartSetUp {
 //        //Appium与IDEA 测试机通信协议
 //        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 //        tl.insertLog("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-//
 //    }
 //
 //    public AppiumTool getAt(AndroidDriver driver){
-//
 //        at = new AppiumTool(driver);
 //        return at;
 //    }
-
-//    public static void getRepeateNum(int[] num) {
-//        int NumChange;
-//        System.out.println("重复数字是：");
-//        for(int i = 0; i < num.length; i++) {
-//            while(num[i] != i) {
-//                if(num[i] == num[num[i]]) {
-//                    System.out.println(num[i]);
-//                    break;
-//                } else {
-//                    NumChange = num[num[i]];
-//                    num[num[i]] = num[i];
-//                    num[i] = NumChange;
-//                }
-//            }
-//        }
-//    }
-//
-//    public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        int[] num = new int[5];   //数组长度可以自己定义
-//        System.out.println("请输入一组数据：");
-//        for (int j = 0; j < 5; j++) {
-//            num[j] = scanner.nextInt();
-//        }
-//        getRepeateNum(num);
-//    }
-    public static void main(String[] args) {
-        int[] num = {1, 2, 13, 1, 13, 3, 5, 5, 7, 9, 9, 10, 10, 18, 18};
-        int number;
-        for (int i = 0; i < num.length; i++){
-            for (int j = i; j < num.length; j++){
-                if ((num[i] == num[j]) && (i!=j)){
-                        System.out.println(num[j]);
-                }
-            }
-        }
-        //从小到大排序
-        for (int i = 0; i < num.length - 1; i++) {
-            for (int j = 0; j < num.length - 1 - i; j++) {
-                if (num[j] > num[j + 1]) {
-                    number = num[j];
-                    num[j] = num[j + 1];
-                    num[j + 1] = number;
-                }
-            }
-        }
-        //从大到小排序
-        for (int i = 0;i < num.length-1 ; i++){
-            for (int j = num.length - 1; j > 0; j--) {
-                if (num[j] > num[j-1]){
-                    number = num[j];
-                    num[j] = num[j - 1];
-                    num[j - 1] = number;
-                }
-            }
-        }
-        System.out.print("排序后的数组：");
-        for (int x:num) {
-            System.out.print(x+" ");
-        }
-        System.out.println("");
-    }
 }
