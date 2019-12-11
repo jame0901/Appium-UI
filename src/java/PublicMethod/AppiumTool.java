@@ -3,6 +3,7 @@ package PublicMethod;
 import StartMethod.DriverStartSetUp;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.*;
@@ -13,6 +14,7 @@ import java.net.URL;
 import java.time.Duration;
 
 public class AppiumTool{
+
     public AndroidDriver driver;
     public WebElement operationalElements;
     private String element;
@@ -108,54 +110,53 @@ public class AppiumTool{
     }
 
     public void clcikElements(String element,int time,ElementMethod elementMethod)throws Exception{
+        try{
+            Thread.sleep(time);
+            switch (elementMethod){
 
-      try{
-          Thread.sleep(time);
-          switch (elementMethod){
+                case xpath:
+                    driver.findElement(By.xpath(element)).click();
+                    tl.insertLog("点击元素"+element);
+                    break;
+                case linkText:
+                    driver.findElement(By.linkText(element)).click();
+                    tl.insertLog("点击元素"+element);
+                    break;
+                case className:
+                    driver.findElement(By.className(element)).click();
+                    tl.insertLog("点击元素"+element);
+                    break;
+                case id:
+                    driver.findElement(By.id(element)).click();
+                    tl.insertLog("点击元素"+element);
+                    break;
+                case name:
+                    driver.findElement(By.name(element)).click();
+                    tl.insertLog("点击元素"+element);
+                    break;
+                case partialLinkText:
+                    driver.findElement(By.partialLinkText(element)).click();
+                    tl.insertLog("点击元素"+element);
+                    break;
+                case tagName:
+                    driver.findElement(By.tagName(element)).click();
+                    tl.insertLog("点击元素"+element);
+                    break;
+                case cssSelector:
+                    driver.findElement(By.cssSelector(element)).click();
+                    tl.insertLog("点击元素"+element);
+                    break;
+                default:
+                    tl.insertLog("输入不符合要求的查找元素方式");
+                    break;
+            }
 
-              case xpath:
-                  driver.findElement(By.xpath(element)).click();
-                  tl.insertLog("点击元素"+element);
-                  break;
-              case linkText:
-                  driver.findElement(By.linkText(element)).click();
-                  tl.insertLog("点击元素"+element);
-                  break;
-              case className:
-                  driver.findElement(By.className(element)).click();
-                  tl.insertLog("点击元素"+element);
-                  break;
-              case id:
-                  driver.findElement(By.id(element)).click();
-                  tl.insertLog("点击元素"+element);
-                  break;
-              case name:
-                  driver.findElement(By.name(element)).click();
-                  tl.insertLog("点击元素"+element);
-                  break;
-              case partialLinkText:
-                  driver.findElement(By.partialLinkText(element)).click();
-                  tl.insertLog("点击元素"+element);
-                  break;
-              case tagName:
-                  driver.findElement(By.tagName(element)).click();
-                  tl.insertLog("点击元素"+element);
-                  break;
-              case cssSelector:
-                  driver.findElement(By.cssSelector(element)).click();
-                  tl.insertLog("点击元素"+element);
-                  break;
-              default:
-                  tl.insertLog("输入不符合要求的查找元素方式");
-                  break;
-          }
+        }catch (Exception e){
 
-      }catch (Exception e){
+            tl.insertLog("未找到要点击的元素："+element);
+            e.printStackTrace();
 
-          tl.insertLog("未找到要点击的元素："+element);
-          e.printStackTrace();
-
-      }
+        }
     }
 
     public String locationElement (String string,String element,int time,String i,ElementMethod elementMethod)throws Exception{

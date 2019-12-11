@@ -1,6 +1,12 @@
 package StartMethod;
 
-import java.util.Scanner;
+import org.apache.commons.codec.binary.Hex;
+import sun.misc.BASE64Encoder;
+
+import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Date;
 
 public class TestClass {
 //    public static void main(String[] args) {
@@ -61,46 +67,69 @@ public class TestClass {
 //            }
 //        }
 
-        public static void main(String[] args) {
-//            TestClass testClass = new TestClass();
+    public int resultNumber(int k,int n){
+        int num = 0;
+        for (int i = k; i <= n; i++){
+            num +=countNumber(i,k);
+        }
+        return num;
+    }
+
+    public int countNumber(int i, int k){
+        int num = 0;
+        if (k == 0 && i == 0){
+            return 1;
+        }
+        while (i > 0){
+            if(k == i % 10){
+                num++;
+            }
+            i = i/10;
+        }
+        return num;
+    }
+
+        public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
+            TestClass testClass = new TestClass();
+//            System.out.println(testClass.resultNumber(1,141));
 //            testClass.reverse();
-            int[] num_one = {1, 2, 13, 1, 13, 3, 5, 5, 7, 9, 9, 10, 10, 18, 18};
-            int[] num = new int[num_one.length/2];
-            int k = 0;
-            int number;
-            for (int i = 0; i < num_one.length; i++){
-                for (int j = i; j < num_one.length; j++){
-                    if ((num_one[i] == num_one[j]) && (i!=j)){
-                        System.out.println(num_one[j]);
-                        num[k] = num_one[j];
-                        k++;
-                    }
-                }
-            }
-            //从小到大排序
-            for (int i = 0; i < num.length - 1; i++) {
-                for (int j = 0; j < num.length - 1 - i; j++) {
-                    if (num[j] > num[j + 1]) {
-                        number = num[j];
-                        num[j] = num[j + 1];
-                        num[j + 1] = number;
-                    }
-                }
-            }
-            //从大到小排序
-            for (int i = 0;i < num.length-1 ; i++){
-                for (int j = num.length - 1; j > 0; j--) {
-                    if (num[j] > num[j - 1]){
-                        number = num[j];
-                        num[j] = num[j - 1];
-                        num[j - 1] = number;
-                    }
-                }
-            }
-            System.out.print("排序后的数组：");
-            for (int x:num) {
-                System.out.print(x+" ");
-            }
-            System.out.println("");
+//            int[] num_one = {1, 2, 13, 1, 13, 3, 5, 5, 7, 9, 9, 10, 10, 18, 18};
+//            int[] num = new int[num_one.length/2];
+//            int k = 0;
+//            int number;
+//            for (int i = 0; i < num_one.length; i++){
+//                for (int j = i; j < num_one.length; j++){
+//                    if ((num_one[i] == num_one[j]) && (i!=j)){
+//                        System.out.println(num_one[j]);
+//                        num[k] = num_one[j];
+//                        k++;
+//                    }
+//                }
+//            }
+//            //从小到大排序
+//            for (int i = 0; i < num.length - 1; i++) {
+//                for (int j = 0; j < num.length - 1 - i; j++) {
+//                    if (num[j] > num[j + 1]) {
+//                        number = num[j];
+//                        num[j] = num[j + 1];
+//                        num[j + 1] = number;
+//                    }
+//                }
+//            }
+//            //从大到小排序
+//            for (int i = 0;i < num.length-1 ; i++){
+//                for (int j = num.length - 1; j > 0; j--) {
+//                    if (num[j] > num[j - 1]){
+//                        number = num[j];
+//                        num[j] = num[j - 1];
+//                        num[j - 1] = number;
+//                    }
+//                }
+//            }
+//            System.out.print("排序后的数组：");
+//            for (int x:num) {
+//                System.out.print(x+" ");
+//            }
+//            System.out.println("");
         }
 }
