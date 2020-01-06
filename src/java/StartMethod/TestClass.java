@@ -1,12 +1,18 @@
 package StartMethod;
 
+import PublicMethod.HttpRequest;
 import org.apache.commons.codec.binary.Hex;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.junit.Assert;
+import org.junit.Test;
 import sun.misc.BASE64Encoder;
-
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
+import java.util.HashMap;
 
 public class TestClass {
 //    public static void main(String[] args) {
@@ -89,7 +95,33 @@ public class TestClass {
         return num;
     }
 
-        public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
+    public double sqrtMethod(double a, double b){
+
+        return Math.sqrt(a*a+b*b);
+    }
+
+    @Test
+    public void postTest()throws IOException{
+
+        String url = "https://xesapi.speiyou.cn/v1/start_up_page/subject_list";
+        HttpRequest httpRequest = new HttpRequest();
+        HashMap<String,String> headerMap = new HashMap <String, String>();
+        headerMap.put("V","7.7.0");
+        headerMap.put("devid","zjx");
+        headerMap.put("Content-Type","application/json");
+        headerMap.put("client_type","1");
+        headerMap.put("client_id","122103");
+        HashMap<String,String> bodyMap = new HashMap <String, String>();
+        bodyMap.put("area_code","010");
+        bodyMap.put("grade_id","7");
+        String userJsonString = JSON.toJSONString(bodyMap);
+        CloseableHttpResponse closeableHttpResponse = httpRequest.post(url, userJsonString, headerMap);
+        int statusCode = closeableHttpResponse.getStatusLine().getStatusCode();
+        Assert.assertEquals(statusCode,200);
+
+    }
+
+        public static void main(String[] args) throws IOException {
             TestClass testClass = new TestClass();
 //            System.out.println(testClass.resultNumber(1,141));
 //            testClass.reverse();
