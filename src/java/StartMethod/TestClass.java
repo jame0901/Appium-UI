@@ -1,20 +1,18 @@
 package StartMethod;
 
 import PublicMethod.HttpRequest;
-import org.apache.commons.codec.binary.Hex;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.junit.Assert;
-import org.junit.Test;
-import sun.misc.BASE64Encoder;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import org.junit.Assert;
+import org.junit.Test;
+
 import java.io.IOException;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class TestClass {
+    HttpRequest httpRequest = new HttpRequest();
 //    public static void main(String[] args) {
 //        TestListenerAdapter tla = new TestListenerAdapter();
 //        TestNG testng = new TestNG();
@@ -100,29 +98,72 @@ public class TestClass {
         return Math.sqrt(a*a+b*b);
     }
 
+
+    public HashMap hashMap()throws Exception{
+
+        HashMap<Object,Object> hashMap = new HashMap<Object,Object>();
+        List list = new ArrayList();
+        HashMap<Object,Object> bodyMap = new HashMap <Object,Object>();
+        hashMap.put("testOne","1");
+        hashMap.put("testTwo",2);
+        list.add(hashMap);
+        System.out.println(list);
+        bodyMap.put("zjx", list);
+        bodyMap.put("area_code","010");
+        System.out.println(bodyMap);
+        httpRequest.updatahashMap(bodyMap,"area_code",2);
+        httpRequest.updatahashMap(hashMap,"testOne","testOne");
+        httpRequest.updataList(list,0,hashMap);
+        return bodyMap;
+    }
+
     @Test
     public void postTest()throws IOException{
 
-        String url = "https://xesapi.speiyou.cn/v1/start_up_page/subject_list";
-        HttpRequest httpRequest = new HttpRequest();
+        String api = "https";
+        String hosts = "xesapi.speiyou.cn";
+        String path = "/v1/start_up_page/subject_list";
+        String url = api+"://"+hosts+path;
         HashMap<String,String> headerMap = new HashMap <String, String>();
         headerMap.put("V","7.7.0");
         headerMap.put("devid","zjx");
         headerMap.put("Content-Type","application/json");
         headerMap.put("client_type","1");
         headerMap.put("client_id","122103");
-        HashMap<String,String> bodyMap = new HashMap <String, String>();
+        HashMap<Object,Object> bodyMap = new HashMap <Object, Object>();
         bodyMap.put("area_code","010");
         bodyMap.put("grade_id","7");
         String userJsonString = JSON.toJSONString(bodyMap);
-        CloseableHttpResponse closeableHttpResponse = httpRequest.post(url, userJsonString, headerMap);
-        int statusCode = closeableHttpResponse.getStatusLine().getStatusCode();
-        Assert.assertEquals(statusCode,200);
+        String closeableHttpResponse = httpRequest.post(url, userJsonString, headerMap);
+        JSONObject jsonObject = JSON.parseObject(closeableHttpResponse);
+        Assert.assertEquals(httpRequest.getValueByJPathString(jsonObject,"data[0]/subject_id"),"ff80808127d77caa0127d7e10f1c00c4");
 
     }
 
-        public static void main(String[] args) throws IOException {
-            TestClass testClass = new TestClass();
+    @Test
+    public void getTest()throws IOException{
+
+        String api = "http";
+        String hosts = "master-course.speiyou.com";
+        String path = "/bedrock-course/pyCourse/detail";
+        String parameter = "courseId=275bb54dba3f4f6790f8752bb7fc5dd0";
+        String url = api+"://"+hosts+path+"?"+parameter;
+        HttpRequest httpRequest = new HttpRequest();
+        HashMap<String,String> headerMap = new HashMap <String, String>();
+        headerMap.put("empNo","095583");
+        headerMap.put("empName","zhaojiaxin");
+        headerMap.put("Content-Type","application/json");
+        headerMap.put("charset","UTF-8");
+        String closeableHttpResponse = httpRequest.get(url,headerMap);
+        JSONObject jsonObject = JSON.parseObject(closeableHttpResponse);
+        int isAllowClassroomConflict = Integer.valueOf(httpRequest.getValueByJPathString(jsonObject,"data/pyCourseScheduleRespList[0]/isAllowClassroomConflict"));
+        Assert.assertEquals(isAllowClassroomConflict,0);
+
+    }
+
+
+//        public static void main(String[] args) throws IOException {
+//            TestClass testClass = new TestClass();
 //            System.out.println(testClass.resultNumber(1,141));
 //            testClass.reverse();
 //            int[] num_one = {1, 2, 13, 1, 13, 3, 5, 5, 7, 9, 9, 10, 10, 18, 18};
@@ -163,5 +204,5 @@ public class TestClass {
 //                System.out.print(x+" ");
 //            }
 //            System.out.println("");
-        }
+//        }
 }
