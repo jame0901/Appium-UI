@@ -3,7 +3,9 @@ package PublicMethod;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import org.apache.http.HttpHost;
 import org.apache.http.HttpVersion;
+import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.fluent.Request;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -14,7 +16,6 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.apache.http.client.*;
-
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
@@ -36,13 +37,28 @@ public class HttpRequest {
     }
 
     //2. Get 请求方法（带请求头信息）
-    public static String get(String url, HashMap <String, String> headermap) throws IOException {
+    public static String getProxy(String url, HashMap <String, String> headermap , String host , int port , String scheme) throws IOException {
+        HttpHost proxy = new HttpHost(host,port,scheme);
+        RequestConfig config = RequestConfig.custom().setProxy(proxy).build();
         //创建一个可关闭的HttpClient对象
         CloseableHttpClient httpclient = HttpClients.createDefault();
         //创建一个HttpGet的请求对象
         HttpGet httpget = new HttpGet(url);
-
         //加载请求头到httpget对象
+        for (Map.Entry <String, String> entry : headermap.entrySet()) {
+            httpget.addHeader(entry.getKey(), entry.getValue());
+        }
+        httpget.setConfig(config);
+        CloseableHttpResponse httpResponse = httpclient.execute(httpget);
+        String response = getResponseJson(httpResponse).toJSONString();
+        System.out.println("请求路径：" + url + " " + httpResponse + "\n返回结果：\n" + response);
+        return response;
+
+    }
+
+    public static String get(String url, HashMap <String, String> headermap) throws IOException {
+        CloseableHttpClient httpclient = HttpClients.createDefault();
+        HttpGet httpget = new HttpGet(url);
         for (Map.Entry <String, String> entry : headermap.entrySet()) {
             httpget.addHeader(entry.getKey(), entry.getValue());
         }
@@ -54,7 +70,10 @@ public class HttpRequest {
     }
 
     //3. POST方法
-    public static String post(String url, String entityString, HashMap <String, String> headermap) throws IOException {
+
+    public static String postProxy(String url, String entityString, HashMap <String, String> headermap , String host , int port , String scheme) throws IOException {
+        HttpHost proxy = new HttpHost(host,port,scheme);
+        RequestConfig config = RequestConfig.custom().setProxy(proxy).build();
         //创建一个可关闭的HttpClient对象
         CloseableHttpClient httpclient = HttpClients.createDefault();
         //创建一个HttpPost的请求对象
@@ -65,7 +84,22 @@ public class HttpRequest {
         for (Map.Entry <String, String> entry : headermap.entrySet()) {
             httppost.addHeader(entry.getKey(), entry.getValue());
         }
+        httppost.setConfig(config);
         //发送post请求
+        System.out.println("请求参数：" + entityString);
+        CloseableHttpResponse httpResponse = httpclient.execute(httppost);
+        String response = getResponseJson(httpResponse).toJSONString();
+        System.out.println("请求路径：" + url + " " + httpResponse + "\n返回结果：\n" + response);
+        return response;
+    }
+
+    public static String post(String url, String entityString, HashMap <String, String> headermap) throws IOException {
+        CloseableHttpClient httpclient = HttpClients.createDefault();
+        HttpPost httppost = new HttpPost(url);
+        httppost.setEntity(new StringEntity(entityString));
+        for (Map.Entry <String, String> entry : headermap.entrySet()) {
+            httppost.addHeader(entry.getKey(), entry.getValue());
+        }
         System.out.println("请求参数：" + entityString);
         CloseableHttpResponse httpResponse = httpclient.execute(httppost);
         String response = getResponseJson(httpResponse).toJSONString();
@@ -89,7 +123,8 @@ public class HttpRequest {
                     object = ((JSONObject) object).get(s);
 
                 } else if (s.contains("[") || s.contains("]")) {
-                    object = ((JSONArray) ((JSONObject) object).get(s.split("\\[")[0])).get(Integer.parseInt(s.split("\\[")[1].replaceAll("]", "")));
+                    object = ((JSONArray) ((JSONObject) object).get(s.split("\\[")[0]))
+                            .get(Integer.parseInt(s.split("\\[")[1].replaceAll("]", "")));
                 }
             }
         }
@@ -118,7 +153,7 @@ public class HttpRequest {
     }
 
     //修改hashMap中key对应的value
-    public void updatahashMap(HashMap bodyMap,String key,Object value){
+    public void updataHashMap(HashMap bodyMap,String key,Object value){
 
         if(bodyMap.get(key) != null){
             bodyMap.put(key,value);

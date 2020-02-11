@@ -10,6 +10,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 public class TestClass {
     HttpRequest httpRequest = new HttpRequest();
@@ -111,8 +114,8 @@ public class TestClass {
         bodyMap.put("zjx", list);
         bodyMap.put("area_code","010");
         System.out.println(bodyMap);
-        httpRequest.updatahashMap(bodyMap,"area_code",2);
-        httpRequest.updatahashMap(hashMap,"testOne","testOne");
+        httpRequest.updataHashMap(bodyMap,"area_code",2);
+        httpRequest.updataHashMap(hashMap,"testOne","testOne");
         httpRequest.updataList(list,0,hashMap);
         return bodyMap;
     }
@@ -141,12 +144,34 @@ public class TestClass {
     }
 
     @Test
+    public void testOne() throws IOException{
+        String api = "https";
+        String hosts = "xesapi.speiyou.cn";
+        String path = "/v1/start_up_page/subject_list";
+        String url = api + "://"+hosts+path;
+        HashMap<String,String> headerMap = new HashMap <String, String>();
+        headerMap.put("V","7.7.0");
+        headerMap.put("devid","zjx");
+        headerMap.put("Content-Type","application/json");
+        headerMap.put("client_type","1");
+        headerMap.put("client_id","test");
+        HashMap<Object,Object> bodyMap = new HashMap <Object, Object>();
+        bodyMap.put("area_code","010");
+        bodyMap.put("grade_id","7");
+        String userJsonString = JSON.toJSONString(bodyMap);
+        String closeableHttpResponse = httpRequest.post(url,userJsonString,headerMap);
+        JSONObject jsonObject = JSON.parseObject(closeableHttpResponse);
+        Assert.assertEquals(httpRequest.getValueByJPathString(jsonObject,"data[0]/subject_id"),"ff80808127d77caa0127d7e10f1c00c4");
+    }
+
+    @Test
     public void getTest()throws IOException{
 
         String api = "http";
         String hosts = "master-course.speiyou.com";
         String path = "/bedrock-course/pyCourse/detail";
-        String parameter = "courseId=275bb54dba3f4f6790f8752bb7fc5dd0";
+        String courseId = "275bb54dba3f4f6790f8752bb7fc5dd0";
+        String parameter = "courseId"+ "=" + courseId;
         String url = api+"://"+hosts+path+"?"+parameter;
         HttpRequest httpRequest = new HttpRequest();
         HashMap<String,String> headerMap = new HashMap <String, String>();
@@ -161,6 +186,17 @@ public class TestClass {
 
     }
 
+    public void test(){
+
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("test");
+            }
+        };
+        ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
+        service.scheduleAtFixedRate(runnable,0,1, TimeUnit.MINUTES);
+    }
 
 //        public static void main(String[] args) throws IOException {
 //            TestClass testClass = new TestClass();
